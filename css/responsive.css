@@ -1,0 +1,251 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .service-box ul li span {
+        font-size: 14px;
+    }
+
+    .promise-info p {
+        font-size: 15px;
+    }
+
+    .high p {
+        font-size: 16px;
+    }
+
+    .high {
+        bottom: 18px;
+    }
+
+    .tab-part-area label {
+        width: 23.9%;
+    }
+
+    .network2 h3 {
+        font-size: 20px !important;
+    }
+
+    .network2 span {
+        font-size: 9px !important;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service-box ul li {
+        text-align: center;
+    }
+
+    .service-box ul li span {
+        display: block;
+    }
+
+    .promise-info {
+        height: 130px;
+    }
+
+    .tab-part-area label {
+        font-size: 13px;
+        width: 23.6%;
+    }
+
+    .promise-info p {
+        font-size: 14px;
+    }
+
+
+    .product-dec {
+        margin-top: 50px;
+    }
+
+    .cs {
+        height: 300px;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    .product-dec h3 {
+        margin: 20px 0 10px;
+    }
+
+    .tab {
+        padding: 10px 5px;
+    }
+
+    .panels {
+        padding-right: 15px;
+    }
+    .included {
+        text-align: center;
+    }
+
+    .service-box ul li,
+    .service-box ul li:nth-child(2),
+    .service-box ul li:nth-child(3) {
+        width: 100%;
+    }
+
+    .service-box ul li {
+        text-align: center;
+    }
+
+    .service-box ul li span {
+        display: block;
+    }
+
+
+    /* menu start */
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+        padding: 15px 0;
+    }
+
+    .menu-container {
+        float: left;
+        width: 100%;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        display: block;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 46px;
+        z-index: 999;
+        left: 0;
+        background-color: #000;
+    }
+
+    #navbar ul li a:hover {
+        color: #fff;
+    }
+
+    #navbar ul li a::before {
+        background: #fff;
+    }
+
+    /* menu end */
+    .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+        left: 12px;
+    }
+
+    .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+        right: 39px;
+    }
+
+    .col-sm-6,
+    .col-sm-3 {
+        padding-right: 15px !important;
+    }
+
+    .conditions-info {
+        height: auto;
+        text-align: center;
+    }
+
+    .promise-info {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+
+    section.tab-section {
+        padding: 30px 10px;
+    }
+
+    .tab-part-area label {
+        font-size: 10px;
+        margin: 0 2px;
+        width: 23.6%;
+    }
+
+    .tab-list h3 {
+        font-size: 18px;
+    }
+
+    .cs {
+        height: auto;
+    }
+
+    .tab-part-area input:checked + label::before {
+        display: none;
+    }
+
+    .tab-list ul li {
+        font-size: 13px;
+    }
+
+    .footer-top {
+        padding: 40px 0;
+    }
+
+    .mfb {
+        padding-top: 0;
+    }
+
+    .copy-right.text-right {
+        text-align: center;
+    }
+
+    .main-footer {
+        padding-bottom: 40px;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
